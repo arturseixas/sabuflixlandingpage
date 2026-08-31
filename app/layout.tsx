@@ -13,18 +13,19 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL('https://sabuflix.arturseixas279257.chatgpt.site'),
   title: 'Sabuflix — Sua central de mídia',
   description: 'Filmes, séries e tudo o que você ama em uma experiência rápida, elegante e feita para a sua tela.',
   openGraph: {
     title: 'Sabuflix — Sua central de mídia',
     description: 'Linda. Livre. Sua. Baixe o Sabuflix para Windows e Android.',
-    images: [{ url: '/og.png', width: 1731, height: 909, alt: 'Sabuflix — Sua central de mídia' }],
+    images: [{ url: 'https://sabuflix.arturseixas279257.chatgpt.site/og.png', width: 1731, height: 909, alt: 'Sabuflix — Sua central de mídia' }],
   },
   twitter: {
     card: 'summary_large_image',
     title: 'Sabuflix — Sua central de mídia',
     description: 'Linda. Livre. Sua. Baixe o Sabuflix para Windows e Android.',
-    images: ['/og.png'],
+    images: ['https://sabuflix.arturseixas279257.chatgpt.site/og.png'],
   },
 };
 
